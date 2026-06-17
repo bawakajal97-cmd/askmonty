@@ -7,12 +7,11 @@ import {
 } from 'react-router';
 import { SessionProvider } from 'next-auth/react';
 import { Toaster } from 'sonner';
-import type { ReactNode } from 'react';
 import './global.css';
 
 export const links = () => [];
 
-export function Layout({ children }: { children: ReactNode }) {
+export function Layout({ children }) {
   return (
     <html lang="en">
       <head>
